@@ -10,7 +10,7 @@ app.get('/', function(request, response) {
  });
  respond.end(HTMLImport);
 
-}
+});
 
 var port = process.env.PORT || 5000;
 app.listen(port, function() {
